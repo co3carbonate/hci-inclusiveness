@@ -8,11 +8,9 @@ html, body {
 	height: 50px;
 	width: 100%;
 	font-size: 30px;
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(0,0,0,1);
 	color: white;
 	margin: 0;
-	top: 0;
-	position: absolute;
 }
 
 .nav-bar td{

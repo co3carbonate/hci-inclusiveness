@@ -13,18 +13,29 @@
 	<style type="text/css">
 
 		.main-box{
-			margin: 0 auto; 
 			text-align: center; 
 			height: 70%;
-			width: 100%;
-			padding: 20px;
+
 			display: flex;
 			justify-content: center;
 			align-items: center;
 			flex-direction: column;
+
 			background-image: url("http://www.freebiesgallery.com/wp-content/uploads/2014/02/blurred-background-2.jpg");
 			background-repeat: no-repeat;
 			background-size: cover;
+		}
+
+		.cell{
+			background-color: lightblue;
+			border: 5px solid white;
+			box-sizing: border-box;
+			padding: 15px;
+			height: 200px;
+		}
+
+		.double{
+			height: 400px;
 		}
 
 	</style>
@@ -41,9 +52,74 @@
 	</table>
 	
 		
-	<div class="main-box">
+	<div class="col-md-12 main-box">
 		<h1 style="color: white;">HCI-Inclusivness</h1>
 		<h3 style="color: white;">自强不息</h3>
+	</div>
+
+	<div class="row" style="margin: 0">
+		<div class="col-md-5 cell">
+			<h1> 
+				Testing 
+				<br>
+				<small>Whatever Text</small>
+			</h1>
+			
+		</div>
+		<div class="col-md-7 cell">
+			<h1> 
+				Testing 
+				<br>
+				<small>Whatever Text</small>
+			</h1>
+		</div>
+	</div>
+
+	<div class="row" style="margin: 0">
+		<div class="col-md-4 cell">
+			<h1> 
+				Testing 
+				<br>
+				<small>Whatever Text</small>
+			</h1>
+			
+		</div>
+		<div class="col-md-8 cell">
+			<h1> 
+				Testing 
+				<br>
+				<small>Whatever Text</small>
+			</h1>
+		</div>
+
+		<div class="row" style="margin: 0">
+			<div class="col-md-5 cell double">
+				<h1> 
+					Testing 
+					<br>
+					<small>Whatever Text.</small>
+				</h1>
+				
+			</div>
+			<div class="col-md-7">
+
+				<div class="col-md-12 cell">
+					<h1> 
+						Testing 
+						<br>
+						<small>Whatever Text</small>
+					</h1>
+				</div>
+				<div class="col-md-12 cell">
+					<h1> 
+						Testing 
+						<br>
+						<small>Whatever Text</small>
+					</h1>
+				</div>
+
+			</div>
+		</div>
 	</div>
 
 	<!--
