@@ -4,7 +4,7 @@
 	<title>Homepage</title>
 	<meta charset='utf-8'>
 	<link rel='stylesheet' type='text/css' href='css/shared.css'>
-	<script src='js/shared.js'></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src='js/pages/index.js'></script>
 
 	<!-- bootstrap -->
@@ -42,54 +42,64 @@
 
 </head>
 <body>
+	<!--NAV BAR-->
 	<table class="nav-bar">
 		<tr>
 			<td id="left"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/HCI_Logo.svg/2000px-HCI_Logo.svg.png" height="40px"></td>
 			<td id="right">
-				<img src="http://www.resaleretailing.com/wp-content/themes/giornalismo/images/mobile-nav-icon.png" height="30px">
+				<span class="click"><img src="http://www.resaleretailing.com/wp-content/themes/giornalismo/images/mobile-nav-icon.png" height="30px"></span>
 			</td>
 		</tr>
 	</table>
-	
-		
+
+	<ul class="nav_">
+		<li class="nav_items">About</li>
+		<li class="nav_items">Context</li>
+		<li class="nav_items">Contact</li>
+		<li class="nav_items">Downloads</li>
+	</ul>
+
+	<!--CONTENT-->
 	<div class="col-md-12 main-box">
-		<h1 style="color: white;">HCI-Inclusivness</h1>
+		<h1 style="color: white;">HCI-Inclusiveness</h1>
 		<h3 style="color: white;">自强不息</h3>
 	</div>
 
-	<div class="row" style="margin: 0">
-		<div class="col-md-5 cell">
-			<h1> 
-				Testing 
-				<br>
-				<small>Whatever Text</small>
-			</h1>
-			
+	<div style="padding: 15px" class="col-md-12">
+		<div class="row" style="margin: 0">
+			<div class="col-md-5 cell">
+				<h1> 
+					Testing 
+					<br>
+					<small>Whatever Text</small>
+				</h1>
+				
+			</div>
+			<div class="col-md-7 cell">
+				<h1> 
+					Testing 
+					<br>
+					<small>Whatever Text</small>
+				</h1>
+			</div>
 		</div>
-		<div class="col-md-7 cell">
-			<h1> 
-				Testing 
-				<br>
-				<small>Whatever Text</small>
-			</h1>
-		</div>
-	</div>
 
-	<div class="row" style="margin: 0">
-		<div class="col-md-4 cell">
-			<h1> 
-				Testing 
-				<br>
-				<small>Whatever Text</small>
-			</h1>
-			
-		</div>
-		<div class="col-md-8 cell">
-			<h1> 
-				Testing 
-				<br>
-				<small>Whatever Text</small>
-			</h1>
+		<div class="row" style="margin: 0">
+			<div class="col-md-4 cell">
+				<h1> 
+					Testing 
+					<br>
+					<small>Whatever Text</small>
+				</h1>
+				
+			</div>
+			<div class="col-md-8 cell">
+				<h1> 
+					Testing 
+					<br>
+					<small>Whatever Text</small>
+				</h1>
+			</div>
 		</div>
 
 		<div class="row" style="margin: 0">
@@ -99,16 +109,16 @@
 					<br>
 					<small>Whatever Text.</small>
 				</h1>
-				
+					
 			</div>
-			<div class="col-md-7">
+			<div class="col-md-7" style="padding: 0px">
 
 				<div class="col-md-12 cell">
 					<h1> 
 						Testing 
 						<br>
 						<small>Whatever Text</small>
-					</h1>
+						</h1>
 				</div>
 				<div class="col-md-12 cell">
 					<h1> 
@@ -117,31 +127,11 @@
 						<small>Whatever Text</small>
 					</h1>
 				</div>
-
 			</div>
 		</div>
 	</div>
 
-	<!--
-	<div class="content-box" style="border: 1px solid black; margin: 20px; padding: 20px">
-		<div class="title">
-			<h1>
-				Purple
-				<br>
-				Parade
-			</h1>
-		</div>
-		<div class="overview">
-			Purple parade is a parade which is purple
-		</div>
-		<div class="link">
-			<h5>
-				View more.... 
-				<input type="button" value=">">
-			</h5>
-		</div>
-	</div>
-	-->
-	
+	<script src='js/shared.js'></script>
+
 </body>
 </html>

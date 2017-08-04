@@ -6,29 +6,30 @@
 	<link rel='stylesheet' type='text/css' href='css/shared.css'>
 	<script src='js/shared.js'></script>
 	<script src='js/pages/post.js'></script>
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
-	<table class="nav-bar" width="100%">
-		<th>
-			<td>
-				Inclusiveness
+	<table class="nav-bar">
+		<tr>
+			<td id="left"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/HCI_Logo.svg/2000px-HCI_Logo.svg.png" height="40px"></td>
+			<td id="right">
+				<img src="http://www.resaleretailing.com/wp-content/themes/giornalismo/images/mobile-nav-icon.png" height="30px">
 			</td>
-			<td>
-				V
-			</td>
-		</th>
+		</tr>
 	</table>
-	<hr>
-	<div class="container">
-		<h1>Write a Post</h1>
-		<div class="title">
-			<input type="text" placeholder="Input Title"></input>
+	<div class="container" style="padding: 20px;">
+		<div class="col-md-12" style="padding: 0;"><h1>Writing A Post</h1></div>
+
+		<div class="form-group">
+				<input type="text" class="form-control" placeholder="Title" style="height: 50px; font-size: 30px;">
 		</div>
-		<br>
-		<div class="content">
-			 <textarea rows="10" cols="100" placeholder="Write Content"></textarea>
+
+		<div class="form-group">
+			<textarea class="form-control" placeholder="Write Something!" style="height: 300px;"></textarea>
 		</div>
-		<input type="button" value="Post!">
+
+		<button type="submit" class="btn btn-default">Submit</button>
 	</div>
 </body>
 </html>
